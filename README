@@ -7,3 +7,14 @@ Wrote this
 
 Next steps:
 Uploading of some documents for your review.
+
+Some Infos that might be useful for other github newbies:
+
+#Getting a copy of your github repo (this can be used for example to get aec or this repo)
+git clone [clone_url] where [clone_url] is something like git@github.com:johndoe/myproject.git
+
+#some useful commands I needed for creating this repo
+git add README                   #Adds README to an empty repo
+git commit -m "check in comment" #at the moment this is only a local commit
+git remote add origin git@github.com:fAECade/admin_stuff.git #I guess this sets origin to the path so that
+git push origin master                                       # works
