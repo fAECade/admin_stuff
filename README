@@ -18,3 +18,5 @@ git add README                   #Adds README to an empty repo
 git commit -m "check in comment" #at the moment this is only a local commit
 git remote add origin git@github.com:fAECade/admin_stuff.git #I guess this sets origin to the path so that
 git push origin master                                       # works
+git pull git@github.com:fAECade/admin_stuff.git              # get current repo from github (needed for merge)
+
